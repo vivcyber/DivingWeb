@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAPPY DIVING</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(28, 41, 53);
+        font-family: 'Montserrat', sans-serif;
+    }
+    .main{
+        background: url(./imgs/pexels-jeremy-bishop-7866233.jpg);
+        background-size: cover;
+        display: block;
+       
+    }
+    nav{
+        background: rgba(0, 0, 0, 0.5);
+        
+    }
+    .navlink{
+        text-decoration: none;
+        color: white;
+        margin-left: 20px;
+        font-weight: 100;
+    }
+    .sideitem{
+        position: relative;
+    }
+    .mycard-text{
+        position: absolute;
+        top:10px;
+    }
+    .card{
+        opacity: 0;
+        transform: translateY(200px);
+        margin: 48px;
+       
+    }
+    .trigger{
+        width: 100%;
+        height: 15vh;
+        /* background-color: #fff; */
+    }
+    .sectiontitle{
+        width: 100%;
+        overflow: hidden;
+    }
+    .titleA{
+        font-weight: 100;
+        font-size: 120px;
+        color: white;
+        word-break: none;
+        width: 200vw;
+        transform: translateX(0px);
+    }
+
+
+
+    .click-box{
+            width:0;
+            height: 300px;
+            
+            background-color: rgba(0, 0, 0, 0.4);
+            overflow: hidden;
+            opacity: 0;
+        }
+        .click-box h3{
+            opacity: 0;
+            width: 0;
+        }
+        .click-box p{
+            opacity: 0;
+        }
+        .click-img{
+            opacity: 0;
+        }
+        .infopart{
+            background: url(./imgs/pexels-daniel-torobekov-4628391.jpg);
+            background-size: cover;
+        }
+       
+   
+    
+
+   
+</style>
+<body>
+    <nav class="header py-3 px-5 d-flex justify-content-between">
+        <div class="links">
+            <i class="fa-solid fa-fish text-white"></i>
+            <a href="#" class="navlink">ABOUT</a>
+            <a href="#" class="navlink">DIVING</a>
+            <a href="#" class="navlink">COURSE</a>
+            <a href="#" class="navlink">DIVE GUIDES</a>
+
+        </div>
+        <div class="user"><i class="fa-solid fa-user text-white"></i></div>
+    </nav>
+    <section class="main container-fluid vh-100">
+        <div class="row ">
+            <div class="col-8  vh-100 p-5 ">
+                 <div class="info col-6 m-5">
+    
+                    <h2 class=" fw-light text-white pb-5">HAPPY DIVING</h2>
+                    <p class="text-white pb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa molestiae quia neque natus. Sequi obcaecati praesentium nulla odio magni aut veritatis architecto distinctio. Nam placeat, perferendis quis dolorem id libero!</p>
+                    <button class="btn btn-outline-light">View More</button>
+                </div>
+
+            </div>
+            <div class="col-4 vh-100 ">
+                <div class="side row flex-wrap d-flex flex-column p-3 h-100">
+                 <div class="sideitem bg-white h-25 mb-3 p-0 overflow-hidden">
+
+                    <h3 class="mycard-text text-white fw-light m-3">Static Water Courses</h3>
+                    <img src="./imgs/pexels-sonya-gabriela-9880989.jpg" class="img-fluid p-0" alt="...">
+
+                 </div>
+
+                 <div class="sideitem bg-white h-25 mb-3 p-0 overflow-hidden">
+
+                    <h3 class="mycard-text text-white fw-light m-3">Static Water Courses</h3>
+                    <img src="./imgs/p1.jpg" class="img-fluid p-0" alt="...">
+
+                 </div>
+
+                 <div class="sideitem bg-white h-25 mb-3 p-0 overflow-hidden">
+
+                    <h3 class="mycard-text text-white fw-light m-3">Static Water Courses</h3>
+                    <img src="./imgs/pexels-tom-fisk-1522160.jpg" class="img-fluid p-0" alt="...">
+
+                 </div>
+
+                 
+                
+
+                
+
+    
+
+                    
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <div class="sectiontitle" >
+        <h1 class="titleA">
+            EXPLORE THE OCEAN . EXPLORE THE OCEAN
+        </h1>
+    </div>
+    <section class="py-5 producrcard">
+       
+
+       <div class="container">
+            <div class="row flex-wrap justify-content-center p-3">
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./imgs/pexels-ayman-zaki-6526856.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-secondary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./imgs/pexels-ayman-zaki-6526856.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-secondary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./imgs/pexels-ayman-zaki-6526856.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-secondary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./imgs/pexels-ayman-zaki-6526856.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-secondary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./imgs/pexels-ayman-zaki-6526856.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-secondary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./imgs/pexels-ayman-zaki-6526856.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-secondary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="trigger"></div>
+    </section>
+    <section class="infopart vh-100 p-5 ">
+        <div class="info container">
+            <button class="btn btn-outline-light click-btn">ClickA</button>
+            <button class="btn btn-outline-light click-btn2">ClickB</button>
+            <button class="btn btn-outline-light click-btn3">Click</button>
+            <button class="btn btn-outline-light click-btn4">Click</button>
+            <div class="click-box d-flex justify-content-between p-5 my-5 border border-light">
+                <div class="info-box w-100 p-5">
+                    <div class="desc w-100 text-white ">
+                        <h3 class="w-100">This is Title</h3>
+                        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim odio accusantium cumque, repellendus quaerat quasi minima voluptatem animi quas id nobis suscipit aut consectetur quae consequatur laborum quidem, dolore alias.</p>
+                    </div>
+                </div>
+                <div class="col-6 h-100 overflow-hidden">
+                    <img src="./imgs/pexels-richard-segal-1645028.jpg" alt="" class="click-img card-img-right img-fluid">
+                </div>
+                
+            </div>
+           
+        </div>
+
+        
+       
+
+    </section>
+
+    
+    
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+<script>
+    gsap.from('.header',{duration:1,y:'-100%',ease:'power.in'});
+    gsap.from('.navlink',{duration:1,opacity:0,delay:1,stagger:.5})
+    gsap.from('.sideitem',{duration:2,x:'100%',opacity:0,delay:1,stagger:.5,ease:'power.in'})
+    gsap.from('.mycard-text',{duration:1,opacity:0,delay:2,stagger:.5})
+    gsap.from('.info h2',{duration:1,y:'100%',opacity:0,delay:2})
+    gsap.from('.info p',{duration:1,y:'100%',opacity:0,delay:2.5})
+    gsap.from('.info button',{duration:1,opacity:0,delay:3})
+
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.to(".card",{ y:0,duration:3,opacity:1,stagger:.5,scrollTrigger:".card"})
+    gsap.to('.titleA',{
+       x:"-45%",
+       duration:3,
+       scrollTrigger:{
+           trigger:".titleA",
+           start:"top 100%",
+           end:"top 10%",
+           toggleActions:"restart none reverse none ",
+           //           onenter onleave enterback leaveback
+        //    markers:true,
+        //    toggleClass:"red",
+       }
+    })
+
+   
+    const navButton = document.querySelector('.click-btn');
+    // const navOpen = document.querySelector('.click-box');
+
+   
+    const tl = new TimelineLite({paused:true});
+    tl.to('.click-box',.5,{width:'100%',opacity:1,ease:Power2.easeOut})
+      .to('.click-box h3',.5,{opacity:1})
+      .to('.click-box p',.5,{opacity:1})
+      .to('.click-box img',.5,{opacity:1,y:-50})
+    
+    navButton.addEventListener('click',()=>{
+        toggleTween(tl);
+    });
+
+    function toggleTween(tween){
+        tween.reversed() ? tween.play() : tween.reverse(); 
+    }
+    
+
+
+
+    
+
+
+
+
+
+</script>
+</html>
